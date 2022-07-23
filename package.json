@@ -1,0 +1,23 @@
+{
+  "name": "wf-finance-toolbox",
+  "version": "0.9.0",
+  "description": "Utility library for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoNevesDuarte/wf-finance-toolbox.git"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Leonardo Neves Duarte",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/LeonardoNevesDuarte/wf-finance-toolbox/issues"
+  },
+  "homepage": "https://github.com/LeonardoNevesDuarte/wf-finance-toolbox#readme"
+}
