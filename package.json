@@ -16,7 +16,17 @@
   },
   "keywords": [
     "node",
-    "node.js"
+    "node.js",
+    "present value",
+    "future value",
+    "payment",
+    "interes rates",
+    "interest rates conversion",
+    "monthly rates",
+    "yearly rates",
+    "loan calculation",
+    "sac table",
+    "price table"
   ],
   "author": "Leonardo Neves Duarte",
   "license": "GPL-3.0",
