@@ -62,7 +62,7 @@ const convertedRateBiMonthly = calculator.convertRateBasedOnPeriods(50, 18, 2);
 console.log('convertedRate: ', convertedRateBiMonthly); //Expected output: 0.0460 ...
 
 const sacTable = calculator.calculateSACTable(loan_amount, monthly_interest_rate, periods);
-console.log('sacTable: ', sacTable) //Expected output
+console.log('sacTable: ', sacTable); //Expected output
 [
   [1, 4666.67, 4166.67, 500, 45833.33],
   [2, 4625, 4166.67, 458.33, 41666.67],
@@ -79,7 +79,7 @@ console.log('sacTable: ', sacTable) //Expected output
 ]
 
 const priceTable = calculator.calculatePRICETable(loan_amount, monthly_interest_rate, periods);
-console.log('priceTable: ', priceTable) //Expected output
+console.log('priceTable: ', priceTable); //Expected output
 [
   [1, 4442.44, 3942.44, 500, 46057.56],
   [2, 4442.44, 3981.86, 460.58, 42075.7],
@@ -99,8 +99,9 @@ console.log('priceTable: ', priceTable) //Expected output
 * Using typescript
 ```
 import { wfFinanceToolbox } from 'wf-finance-toolbox'
+const calculator = new wfFinanceToolbox()
 
-
+Use cases are the same as presented in the javascript block above
 ```
 
 ## License
